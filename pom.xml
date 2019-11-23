@@ -29,17 +29,10 @@
                 <version>2.1</version>
                 <executions>
                     <execution>
-                        <phase>package</phase>
-                        <goals>
-                            <goal>shade</goal>
-                        </goals>
+                       <phase>package</phase>
+                       <version>3.2.3</version>
                         <configuration>
-                            <transformers>
-                                <transformer
-                                    implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                    <mainClass>hello.HelloWorld</mainClass>
-                                </transformer>
-                            </transformers>
+                            <webappDirectory>/opt/playbooks/webapps/target/</webappDirectory>
                         </configuration>
                     </execution>
                 </executions>
