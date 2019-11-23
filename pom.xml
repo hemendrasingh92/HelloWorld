@@ -30,7 +30,6 @@
                 <executions>
                     <execution>
                        <phase>package</phase>
-                       <version>3.2.3</version>
                         <configuration>
                             <webappDirectory>/opt/playbooks/webapps/target/</webappDirectory>
                         </configuration>
